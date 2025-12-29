@@ -113,10 +113,8 @@ export default function Home() {
         {/* Header Section */}
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-6">
           <div>
-            <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight mb-2">
-              Smart Garden
-            </h1>
-            <p className="text-slate-500 text-lg">Monitoring kesehatan tanaman real-time.</p>
+            <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight mb-2">Smart Garden</h1>
+            <p className="text-slate-500 text-lg">Monitor kelembapan tanah tanaman real-time.</p>
           </div>
 
           <div className="flex items-center gap-3 bg-white px-5 py-3 rounded-2xl shadow-sm border border-slate-100">
@@ -136,9 +134,9 @@ export default function Home() {
 
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <PlantCard title="Monstera Deliciosa" value={sensors.s1} index={1} />
-          <PlantCard title="Sansevieria" value={sensors.s2} index={2} />
-          <PlantCard title="Aglonema" value={sensors.s3} index={3} />
+          <PlantCard title="Punya Diva" value={sensors.s1} index={1} />
+          <PlantCard title="Punya Iqbal" value={sensors.s2} index={2} />
+          <PlantCard title="Punya Salma" value={sensors.s3} index={3} />
         </div>
       </div>
     </main>

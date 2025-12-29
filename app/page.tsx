@@ -88,7 +88,7 @@ export default function Home() {
       const res = await fetch('/api/sensor');
       const data = await res.json();
       setSensors({ s1: data.s1, s2: data.s2, s3: data.s3 });
-      setLastUpdate(new Date(data.lastUpdate).toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', second: '2-digit' }));
+      setLastUpdate(new Date(data.lastUpdate).toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' }));
     } catch (error) {
       console.error(error);
     }

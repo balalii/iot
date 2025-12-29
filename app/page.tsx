@@ -114,7 +114,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-6">
           <div>
             <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight mb-2">Smart Garden</h1>
-            <p className="text-slate-500 text-lg">Monitor kelembapan tanah tanaman real-time.</p>
+            <p className="text-slate-500 md:text-lg">Monitor kelembapan tanah tanaman real-time.</p>
           </div>
 
           <div className="flex items-center gap-3 bg-white px-5 py-3 rounded-2xl shadow-sm border border-slate-100">

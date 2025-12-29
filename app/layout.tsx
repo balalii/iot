@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Smart Garden ',
-  description: 'Monitor Kelembapan Tanah',
+  description: 'Monitor kelembapan tanah tanaman real-time.',
 };
 
 export default function RootLayout({

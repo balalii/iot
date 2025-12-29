@@ -134,9 +134,9 @@ export default function Home() {
 
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <PlantCard title="Punya Diva" value={sensors.s1} index={1} />
-          <PlantCard title="Punya Iqbal" value={sensors.s2} index={2} />
-          <PlantCard title="Punya Salma" value={sensors.s3} index={3} />
+          <PlantCard title="Tanaman Punya Diva" value={sensors.s1} index={1} />
+          <PlantCard title="Tanaman Punya Iqbal" value={sensors.s2} index={2} />
+          <PlantCard title="Tanaman Punya Salma" value={sensors.s3} index={3} />
         </div>
       </div>
     </main>
